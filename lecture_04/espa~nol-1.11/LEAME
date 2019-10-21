@@ -1,0 +1,217 @@
+espa~nol.dicc  Versión 1.11-- Un diccionario de Español para su uso
+con la versión internacional de Ispell 3.1.13. o posterior
+
+
+
+Copyright (c) 1994 1995 1996 1999 2001 2005 2008 2010 Santiago Rodríguez y Jesús Carretero
+
+    Este paquete es gratis; se puede redistribuir y/o modificar bajo las
+    condiciones especificadas en la Licencia Publica de GNU tal y como
+    se publica por FSF. Este paquete se distribuye sin ninguna garantía
+    de funcionamiento. Este paquete se puede obtener en
+    http://www.datsi.fi.upm.es/~coes/
+
+Este conjunto de ficheros compone un diccionario de español para su uso
+con la versión internacional del ispell 3.1.13 o posterior. El diccionario
+contiene 54000 raíces (aproximadamente).
+
+Para ejecutar correctamente este paquete el ispell se debe compilar sin
+definir la macro NO8BIT en el fichero de configuración local.h.
+
+Contenido:
+
+	1. Descompresión del paquete.
+	2. Generación del diccionario.
+	3. Instalación del diccionario.
+	4. Formatos admitidos.
+	5. Diccionario (fichero hash) para MSDOS.
+
+
+	1. La distribución se incluye en el fichero espa~nol.tar.gz o
+espa~nol-1.11.tar.gz. Para extraer los ficheros fuente del fichero
+espa~nol.tar.gz basta con teclear el comando:
+
+      gzip -d < espa~nol.tar.gz | tar xf -
+
+De este fichero se generan los siguientes:
+
+	espa~nol.aff: Fichero de afijos.
+
+	espa~nol.words: Contiene una lista de palabras que aparecen en
+el Diccionario de la Real Academia Espa'nola de la Lengua (vigésima
+segunda edición).
+
+	espa~nol.comp: Contiene una lista de palabras que aunque no
+aparecen en el Diccionario de la Real Academia Española de la Lengua, se
+utilizan en entornos informáticos.
+
+	espa~nol.nofl: Contiene una lista de palabras que aunque no
+aparecen en el Diccionario de la Real Academia Española de la Lengua, se
+utilizan en el castellano normalmente y son "correctas".
+
+	antiguas.words: Contiene una lista de palabras que aunque aparecen
+en el Diccionario de la Real Academia Española de la Lengua, son
+acepciones antiguas y que en la actualidad han caído en desuso.
+
+	espa~nol.words+: Contiene la lista expandida de palabras
+	correspondiente a los ficheros espa~nol.words y espa~nol.comp.
+
+	e~nes: Es un script que remplaza las cadenas 'n and 'N por
+~n y ~N en los ficheros espa~nol.aff, espa~nol.words y espa~nol.words+.
+Si utiliza la segunda manera de especificar esta letra tiene que
+ejecutar el script "e~nes". 'Este se ha desarrollado con la versión de
+sed de GNU 2.05. Si desea ejecutar este script asegúrese que tiene
+instalada dicha versión y teclee:
+
+		make e~ne
+
+	Makefile: Es un fichero Makefile que permite generar el
+fichero (espa~nol.hash) a partir del fichero de afijos y de la lista de
+palabras sin expandir (espa~nol.words). Esta forma de generar el fichero
+hash (espa~nol.hash) necesita del orden de 50 Mb de memoria
+(paginación) y del orden de 100 Mb de espacio en disco para
+almacenamiento de ficheros temporales. Asegúrese de que tiene
+suficiente espacio para almacenar ficheros temporales (normalmente en
+/usr/tmp). Si no es así, se debe establecer la variable de entorno
+TMPDIR a un directorio que esté ubicado en una partición que tenga
+disponible 100Mb.
+
+
+	2. Para generar el fichero espa~nol.hash basta teclear:
+
+		make
+
+	Generación rápida: Si se desea generar el fichero espa~nol.hash
+a partir de la lista expandida de palabras se debe invocar el comando:
+
+		make build
+
+Esta operación necesita muchos menos recursos.
+
+	El tama'no del diccionario (espa~nol.hash) es de aproximadamente
+3.9Mbytes (este problema se ha detectado en Solaris 2.7). Si se genera un
+diccionario de un tama'no mucho mayor es debido al comando sort que se ha
+utilizado. En este caso se recomienda la instalación del paquete textutils
+de GNU y asegúrese que se utiliza el comando sort de este paquete.
+
+	3. Para instalar el diccionario entre como administrador de
+sistema y teclee:
+		
+		make install
+
+
+
+	4. Las letras acentuadas propias del español se pueden
+codificar de diferentes formas. Se soportan seis tipos diferentes de formatos:
+
+	Formato por defecto: Las letras acentuadas se codifican como
+	'<letra>:
+		'a	á
+		'e	é
+		'i	í
+		'o	ó
+		'u	ú
+		'n	ñ
+		"u	ü
+		'A	Á
+		'E	É
+		'I	Í
+		'O	Ó
+		'U	Ú
+		'N	Ñ
+		"U	Ü
+
+	Formato TeX: Las letras acentuadas se codifican de la siguiente
+	forma:
+		\'a	á
+		\'e	é
+		\'{\i}	í
+		\'o	ó
+		\'u	ú
+		\'n	ñ
+		\"u	ü
+		\'A	Á
+		\'E	É
+		\'{\I}	Í
+		\'O	Ó
+		\'U	Ú
+		\'N	Ñ
+		\"U	Ü
+
+	Formato plainTeX: Las letras acentuadas se codifican de la siguiente
+	forma:
+		\'{a}	á
+		\'{e}	é
+		\'{\i}	í
+		\'{o}	ó
+		\'{u}	ú
+		\'{n}	ñ
+		\"{u}	ü
+		\'{A}	Á
+		\'{E}	É
+		\'{\I}	Í
+		\'{O}	Ó
+		\'{U}	Ú
+		\'{N}	Ñ
+		\"{U}	Ü
+
+	Formato latin1: Las letras acentuadas se codifican utilizando
+	el código iso_8859_1.
+
+	Formato utf8: Las letras acentuadas se codifican utilizando
+	el código utf8.
+
+	Formato msdos: Las letras acentuadas se codifican utilizando
+	el código ASCII MS-DOS extendido.
+
+	Formato html: Las letras acentuadas se codifican de la siguiente
+	forma:
+		&aacute;	á
+		&eacute;	é
+		&iacute;	í
+		&oacute;	ó
+		&uacute;	ú
+		&ntilde;	ñ
+		&uuml;		ü
+		&Aacute;	Á
+		&Eacute;	É
+		&Iacute;	Í
+		&Oacute;	Ó
+		&Uacute;	Ú
+		&Ntilde;	Ñ
+		&Uuml;		Ü
+
+	Para ejecutar el ispell con un determinado formato:
+
+		ispell -T <formato> -d espa~nol <fichero>
+
+	5. El fichero hash para el diccionario de espa~nol está
+	generado para sistemas MSDOS en:
+
+	http://www.datsi.fi.upm.es/~coes/
+
+	Téngase en cuenta que tanto el fichero de afijos como la lista
+de palabras no están completos. Seguimos trabajando en ello. Si se
+encuentran palabras que no aparecen en el diccionario o aparecen y no
+son correctas, por favor, mande un mensaje a la dirección de correo
+espanol-bugs@datsi.fi.upm.es.
+
+
+
+Santiago Rodriguez & Jesus Carretero
+Departamento de Arquitectura
+y Tecnología de Sistemas Informáticos (DATSI)
+Universidad Politécnica de Madrid
+Diciembre 1994
+Enero 1995
+Febrero 1995
+Abril 1995
+Noviembre 1996
+Abril 1999
+Junio 2001
+Marzo 2005
+Noviembre 2005
+Mayo 2008
+Noviembre 2010
+Email: srodri@fi.upm.es, jesus.carretero@uc3m.es
+
