@@ -1,0 +1,264 @@
+Oct  6 00:17:01 jupiter CRON[79397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 00:17:01 jupiter CRON[79397]: pam_unix(cron:session): session closed for user root
+Oct  6 00:28:41 jupiter sshd[79416]: Received disconnect from 188.131.216.109 port 37954:11: Bye Bye [preauth]
+Oct  6 00:28:41 jupiter sshd[79416]: Disconnected from authenticating user root 188.131.216.109 port 37954 [preauth]
+Oct  6 01:02:58 jupiter sshd[79463]: Received disconnect from 133.130.107.88 port 52752:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 01:02:58 jupiter sshd[79463]: Disconnected from authenticating user root 133.130.107.88 port 52752 [preauth]
+Oct  6 01:17:01 jupiter CRON[79484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 01:17:01 jupiter CRON[79484]: pam_unix(cron:session): session closed for user root
+Oct  6 01:28:30 jupiter sshd[79502]: Received disconnect from 177.69.118.197 port 54186:11: Bye Bye [preauth]
+Oct  6 01:28:30 jupiter sshd[79502]: Disconnected from authenticating user root 177.69.118.197 port 54186 [preauth]
+Oct  6 01:32:04 jupiter sshd[79102]: pam_unix(sshd:session): session closed for user cgawron
+Oct  6 01:32:04 jupiter systemd-logind[30659]: Session 1040 logged out. Waiting for processes to exit.
+Oct  6 01:32:04 jupiter systemd-logind[30659]: Removed session 1040.
+Oct  6 02:06:33 jupiter sshd[79558]: Received disconnect from 112.140.185.64 port 39129:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 02:06:33 jupiter sshd[79558]: Disconnected from authenticating user root 112.140.185.64 port 39129 [preauth]
+Oct  6 02:07:34 jupiter sshd[79561]: Received disconnect from 222.186.173.238 port 27530:11:  [preauth]
+Oct  6 02:07:34 jupiter sshd[79561]: Disconnected from authenticating user root 222.186.173.238 port 27530 [preauth]
+Oct  6 02:15:43 jupiter sshd[79574]: Connection closed by 104.199.19.245 port 41968 [preauth]
+Oct  6 02:17:01 jupiter CRON[79578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 02:17:01 jupiter CRON[79578]: pam_unix(cron:session): session closed for user root
+Oct  6 02:38:26 jupiter sshd[79609]: error: maximum authentication attempts exceeded for root from 60.12.215.85 port 37153 ssh2 [preauth]
+Oct  6 02:38:26 jupiter sshd[79609]: Disconnecting authenticating user root 60.12.215.85 port 37153: Too many authentication failures [preauth]
+Oct  6 02:41:15 jupiter sshd[79615]: Received disconnect from 51.255.174.215 port 54924:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 02:41:15 jupiter sshd[79615]: Disconnected from authenticating user root 51.255.174.215 port 54924 [preauth]
+Oct  6 02:55:10 jupiter sshd[79635]: Received disconnect from 222.186.173.238 port 33510:11:  [preauth]
+Oct  6 02:55:10 jupiter sshd[79635]: Disconnected from authenticating user root 222.186.173.238 port 33510 [preauth]
+Oct  6 03:17:01 jupiter CRON[79667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 03:17:01 jupiter CRON[79667]: pam_unix(cron:session): session closed for user root
+Oct  6 03:41:23 jupiter sshd[79702]: Received disconnect from 202.51.110.214 port 43071:11: Bye Bye [preauth]
+Oct  6 03:41:23 jupiter sshd[79702]: Disconnected from authenticating user root 202.51.110.214 port 43071 [preauth]
+Oct  6 03:55:35 jupiter sshd[79724]: Received disconnect from 212.176.114.10 port 39673:11: Bye Bye [preauth]
+Oct  6 03:55:35 jupiter sshd[79724]: Disconnected from 212.176.114.10 port 39673 [preauth]
+Oct  6 04:02:01 jupiter sshd[79734]: Invalid user pos from 173.220.206.162 port 14866
+Oct  6 04:02:01 jupiter sshd[79734]: Connection closed by invalid user pos 173.220.206.162 port 14866 [preauth]
+Oct  6 04:17:01 jupiter CRON[79757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 04:17:01 jupiter CRON[79757]: pam_unix(cron:session): session closed for user root
+Oct  6 04:30:22 jupiter sshd[79778]: Received disconnect from 222.186.173.142 port 20100:11:  [preauth]
+Oct  6 04:30:22 jupiter sshd[79778]: Disconnected from authenticating user root 222.186.173.142 port 20100 [preauth]
+Oct  6 04:42:25 jupiter sshd[79796]: Received disconnect from 139.59.38.252 port 38870:11: Bye Bye [preauth]
+Oct  6 04:42:25 jupiter sshd[79796]: Disconnected from authenticating user root 139.59.38.252 port 38870 [preauth]
+Oct  6 05:17:01 jupiter CRON[79902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 05:17:01 jupiter CRON[79902]: pam_unix(cron:session): session closed for user root
+Oct  6 05:28:35 jupiter sshd[79922]: Did not receive identification string from 219.74.50.181 port 45548
+Oct  6 05:56:00 jupiter sshd[79959]: Received disconnect from 49.232.173.203 port 56424:11: Bye Bye [preauth]
+Oct  6 05:56:00 jupiter sshd[79959]: Disconnected from authenticating user root 49.232.173.203 port 56424 [preauth]
+Oct  6 06:04:54 jupiter sshd[79973]: Connection closed by 171.67.70.96 port 42890 [preauth]
+Oct  6 06:06:29 jupiter sshd[79977]: Received disconnect from 82.220.37.145 port 59084:11: Bye Bye [preauth]
+Oct  6 06:06:29 jupiter sshd[79977]: Disconnected from authenticating user root 82.220.37.145 port 59084 [preauth]
+Oct  6 06:17:01 jupiter CRON[79993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 06:17:01 jupiter CRON[79993]: pam_unix(cron:session): session closed for user root
+Oct  6 06:25:01 jupiter CRON[80054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 06:25:01 jupiter CRON[80054]: pam_unix(cron:session): session closed for user root
+Oct  6 06:29:22 jupiter sshd[80132]: Received disconnect from 222.186.173.142 port 24578:11:  [preauth]
+Oct  6 06:29:22 jupiter sshd[80132]: Disconnected from authenticating user root 222.186.173.142 port 24578 [preauth]
+Oct  6 06:34:53 jupiter sshd[80142]: Received disconnect from 207.154.239.128 port 40422:11: Bye Bye [preauth]
+Oct  6 06:34:53 jupiter sshd[80142]: Disconnected from authenticating user root 207.154.239.128 port 40422 [preauth]
+Oct  6 06:47:01 jupiter CRON[80160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 06:47:01 jupiter CRON[80160]: pam_unix(cron:session): session closed for user root
+Oct  6 07:01:58 jupiter sshd[80184]: Received disconnect from 36.189.253.226 port 37243:11: Bye Bye [preauth]
+Oct  6 07:01:58 jupiter sshd[80184]: Disconnected from authenticating user root 36.189.253.226 port 37243 [preauth]
+Oct  6 07:17:01 jupiter CRON[80206]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 07:17:01 jupiter CRON[80206]: pam_unix(cron:session): session closed for user root
+Oct  6 07:30:05 jupiter sshd[80226]: Received disconnect from 179.111.213.116 port 51619:11: Bye Bye [preauth]
+Oct  6 07:30:05 jupiter sshd[80226]: Disconnected from authenticating user root 179.111.213.116 port 51619 [preauth]
+Oct  6 08:05:55 jupiter sshd[80276]: Received disconnect from 51.38.49.140 port 35860:11: Bye Bye [preauth]
+Oct  6 08:05:55 jupiter sshd[80276]: Disconnected from authenticating user root 51.38.49.140 port 35860 [preauth]
+Oct  6 08:17:01 jupiter CRON[80295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 08:17:01 jupiter CRON[80295]: pam_unix(cron:session): session closed for user root
+Oct  6 08:22:42 jupiter sshd[80306]: Received disconnect from 159.203.77.51 port 60790:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 08:22:42 jupiter sshd[80306]: Disconnected from authenticating user root 159.203.77.51 port 60790 [preauth]
+Oct  6 08:31:10 jupiter sshd[80318]: Received disconnect from 109.129.21.141 port 36134:11: Bye Bye [preauth]
+Oct  6 08:31:10 jupiter sshd[80318]: Disconnected from authenticating user root 109.129.21.141 port 36134 [preauth]
+Oct  6 08:31:49 jupiter sshd[80322]: Received disconnect from 167.71.230.166 port 47308:11: Bye Bye [preauth]
+Oct  6 08:31:49 jupiter sshd[80322]: Disconnected from 167.71.230.166 port 47308 [preauth]
+Oct  6 08:32:43 jupiter sshd[80324]: Received disconnect from 222.186.173.142 port 59286:11:  [preauth]
+Oct  6 08:32:43 jupiter sshd[80324]: Disconnected from authenticating user root 222.186.173.142 port 59286 [preauth]
+Oct  6 08:45:44 jupiter sshd[80345]: Invalid user pi from 149.233.138.180 port 45580
+Oct  6 08:45:44 jupiter sshd[80345]: Connection closed by invalid user pi 149.233.138.180 port 45580 [preauth]
+Oct  6 08:45:44 jupiter sshd[80344]: Invalid user pi from 149.233.138.180 port 45576
+Oct  6 08:45:45 jupiter sshd[80344]: Connection closed by invalid user pi 149.233.138.180 port 45576 [preauth]
+Oct  6 09:02:14 jupiter sshd[80371]: Received disconnect from 46.101.101.66 port 49594:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 09:02:14 jupiter sshd[80371]: Disconnected from authenticating user root 46.101.101.66 port 49594 [preauth]
+Oct  6 09:05:49 jupiter sshd[80378]: Received disconnect from 51.91.36.28 port 58690:11: Bye Bye [preauth]
+Oct  6 09:05:49 jupiter sshd[80378]: Disconnected from authenticating user root 51.91.36.28 port 58690 [preauth]
+Oct  6 09:17:01 jupiter CRON[80395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 09:17:01 jupiter CRON[80395]: pam_unix(cron:session): session closed for user root
+Oct  6 09:18:15 jupiter sshd[80400]: Received disconnect from 79.143.186.36 port 38758:11: Bye Bye [preauth]
+Oct  6 09:18:15 jupiter sshd[80400]: Disconnected from authenticating user root 79.143.186.36 port 38758 [preauth]
+Oct  6 09:19:03 jupiter sshd[80402]: Received disconnect from 200.129.13.169 port 40950:11: Bye Bye [preauth]
+Oct  6 09:19:03 jupiter sshd[80402]: Disconnected from authenticating user root 200.129.13.169 port 40950 [preauth]
+Oct  6 09:19:35 jupiter sshd[80406]: Received disconnect from 94.23.50.194 port 47184:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 09:19:35 jupiter sshd[80406]: Disconnected from authenticating user root 94.23.50.194 port 47184 [preauth]
+Oct  6 09:23:33 jupiter sshd[80412]: Received disconnect from 62.48.150.175 port 57118:11: Bye Bye [preauth]
+Oct  6 09:23:33 jupiter sshd[80412]: Disconnected from authenticating user root 62.48.150.175 port 57118 [preauth]
+Oct  6 10:15:13 jupiter sshd[80531]: Received disconnect from 182.61.43.150 port 51226:11: Bye Bye [preauth]
+Oct  6 10:15:13 jupiter sshd[80531]: Disconnected from authenticating user root 182.61.43.150 port 51226 [preauth]
+Oct  6 10:17:01 jupiter CRON[80536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 10:17:01 jupiter CRON[80536]: pam_unix(cron:session): session closed for user root
+Oct  6 11:14:57 jupiter sshd[80619]: Received disconnect from 187.189.65.79 port 55907:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 11:14:57 jupiter sshd[80619]: Disconnected from authenticating user root 187.189.65.79 port 55907 [preauth]
+Oct  6 11:17:01 jupiter CRON[80624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 11:17:01 jupiter CRON[80624]: pam_unix(cron:session): session closed for user root
+Oct  6 11:27:35 jupiter sshd[80641]: Received disconnect from 134.175.151.155 port 56996:11: Bye Bye [preauth]
+Oct  6 11:27:35 jupiter sshd[80641]: Disconnected from authenticating user root 134.175.151.155 port 56996 [preauth]
+Oct  6 11:44:58 jupiter sshd[80668]: Received disconnect from 222.186.173.142 port 47642:11:  [preauth]
+Oct  6 11:44:58 jupiter sshd[80668]: Disconnected from authenticating user root 222.186.173.142 port 47642 [preauth]
+Oct  6 11:46:15 jupiter sshd[80671]: Received disconnect from 120.92.172.196 port 41036:11: Bye Bye [preauth]
+Oct  6 11:46:15 jupiter sshd[80671]: Disconnected from authenticating user root 120.92.172.196 port 41036 [preauth]
+Oct  6 12:00:01 jupiter CRON[80692]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 12:00:01 jupiter CRON[80692]: pam_unix(cron:session): session closed for user root
+Oct  6 12:13:27 jupiter sshd[80711]: Invalid user wubao from 174.115.45.16 port 51928
+Oct  6 12:13:28 jupiter sshd[80711]: Connection closed by invalid user wubao 174.115.45.16 port 51928 [preauth]
+Oct  6 12:17:01 jupiter CRON[80719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 12:17:01 jupiter CRON[80719]: pam_unix(cron:session): session closed for user root
+Oct  6 12:24:44 jupiter sshd[80732]: Invalid user wubao from 174.115.45.16 port 38974
+Oct  6 12:24:44 jupiter sshd[80732]: Connection closed by invalid user wubao 174.115.45.16 port 38974 [preauth]
+Oct  6 12:27:31 jupiter sshd[80738]: Received disconnect from 142.93.39.29 port 34888:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 12:27:31 jupiter sshd[80738]: Disconnected from authenticating user root 142.93.39.29 port 34888 [preauth]
+Oct  6 12:47:00 jupiter sshd[80766]: Connection closed by 198.108.67.80 port 1844 [preauth]
+Oct  6 13:14:02 jupiter sshd[80804]: Received disconnect from 218.92.0.139 port 55541:11:  [preauth]
+Oct  6 13:14:02 jupiter sshd[80804]: Disconnected from authenticating user root 218.92.0.139 port 55541 [preauth]
+Oct  6 13:17:01 jupiter CRON[80810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 13:17:01 jupiter CRON[80810]: pam_unix(cron:session): session closed for user root
+Oct  6 13:32:06 jupiter sshd[80833]: Received disconnect from 157.245.98.72 port 57344:11: Bye Bye [preauth]
+Oct  6 13:32:06 jupiter sshd[80833]: Disconnected from 157.245.98.72 port 57344 [preauth]
+Oct  6 13:39:13 jupiter sshd[80844]: Received disconnect from 118.192.66.91 port 50551:11: Bye Bye [preauth]
+Oct  6 13:39:13 jupiter sshd[80844]: Disconnected from authenticating user root 118.192.66.91 port 50551 [preauth]
+Oct  6 14:17:01 jupiter CRON[80897]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 14:17:01 jupiter CRON[80897]: pam_unix(cron:session): session closed for user root
+Oct  6 15:00:45 jupiter sshd[80959]: Received disconnect from 159.65.146.141 port 56656:11: Bye Bye [preauth]
+Oct  6 15:00:45 jupiter sshd[80959]: Disconnected from authenticating user root 159.65.146.141 port 56656 [preauth]
+Oct  6 15:10:43 jupiter sshd[80975]: Received disconnect from 139.59.78.236 port 57262:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 15:10:43 jupiter sshd[80975]: Disconnected from authenticating user root 139.59.78.236 port 57262 [preauth]
+Oct  6 15:13:33 jupiter sshd[80980]: Received disconnect from 219.84.203.57 port 37700:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 15:13:33 jupiter sshd[80980]: Disconnected from authenticating user root 219.84.203.57 port 37700 [preauth]
+Oct  6 15:14:44 jupiter sshd[80983]: Received disconnect from 181.198.35.108 port 44074:11: Bye Bye [preauth]
+Oct  6 15:14:44 jupiter sshd[80983]: Disconnected from authenticating user root 181.198.35.108 port 44074 [preauth]
+Oct  6 15:15:00 jupiter sshd[80986]: Received disconnect from 206.189.136.160 port 35044:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 15:15:00 jupiter sshd[80986]: Disconnected from authenticating user root 206.189.136.160 port 35044 [preauth]
+Oct  6 15:17:01 jupiter CRON[80991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 15:17:01 jupiter CRON[80991]: pam_unix(cron:session): session closed for user root
+Oct  6 15:25:49 jupiter sshd[81006]: Received disconnect from 139.59.39.70 port 55380:11: Bye Bye [preauth]
+Oct  6 15:25:49 jupiter sshd[81006]: Disconnected from authenticating user root 139.59.39.70 port 55380 [preauth]
+Oct  6 15:44:42 jupiter sshd[81032]: Connection closed by authenticating user root 109.173.123.169 port 52719 [preauth]
+Oct  6 15:44:44 jupiter sshd[81034]: Invalid user admin from 160.16.103.248 port 60630
+Oct  6 15:44:45 jupiter sshd[81034]: Connection closed by invalid user admin 160.16.103.248 port 60630 [preauth]
+Oct  6 15:44:47 jupiter sshd[81036]: Invalid user support from 115.84.91.72 port 46233
+Oct  6 15:44:47 jupiter sshd[81036]: Connection closed by invalid user support 115.84.91.72 port 46233 [preauth]
+Oct  6 15:44:49 jupiter sshd[81038]: Invalid user administrator from 183.88.17.59 port 39387
+Oct  6 15:44:49 jupiter sshd[81038]: Connection closed by invalid user administrator 183.88.17.59 port 39387 [preauth]
+Oct  6 15:44:51 jupiter sshd[81041]: Invalid user system from 115.84.91.56 port 53562
+Oct  6 15:44:52 jupiter sshd[81041]: Connection closed by invalid user system 115.84.91.56 port 53562 [preauth]
+Oct  6 15:44:52 jupiter sshd[81043]: Invalid user guest from 88.199.196.21 port 41684
+Oct  6 15:44:55 jupiter sshd[81045]: Connection closed by authenticating user root 171.103.8.214 port 47486 [preauth]
+Oct  6 15:44:57 jupiter sshd[81047]: Connection closed by authenticating user root 119.160.128.108 port 49618 [preauth]
+Oct  6 15:45:05 jupiter sshd[81051]: Connection closed by authenticating user root 12.9.106.143 port 43753 [preauth]
+Oct  6 15:45:06 jupiter sshd[81053]: Connection closed by authenticating user root 187.189.234.246 port 38136 [preauth]
+Oct  6 16:06:22 jupiter sshd[81086]: Received disconnect from 218.92.0.167 port 53922:11:  [preauth]
+Oct  6 16:06:22 jupiter sshd[81086]: Disconnected from authenticating user root 218.92.0.167 port 53922 [preauth]
+Oct  6 16:17:01 jupiter CRON[81102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 16:17:01 jupiter CRON[81102]: pam_unix(cron:session): session closed for user root
+Oct  6 16:36:57 jupiter sshd[81131]: Received disconnect from 222.186.173.142 port 5776:11:  [preauth]
+Oct  6 16:36:57 jupiter sshd[81131]: Disconnected from authenticating user root 222.186.173.142 port 5776 [preauth]
+Oct  6 17:01:32 jupiter sshd[81166]: Accepted publickey for cgawron from 88.152.158.216 port 39176 ssh2: ECDSA SHA256:Nki6X8fLSASAJYarBJHWoW4QicRKWxH0Usn51sIBr1E
+Oct  6 17:01:32 jupiter sshd[81166]: pam_unix(sshd:session): session opened for user cgawron by (uid=0)
+Oct  6 17:01:32 jupiter systemd-logind[30659]: New session 1062 of user cgawron.
+Oct  6 17:02:57 jupiter sudo:  cgawron : TTY=pts/2 ; PWD=/home/jupyter/notebooks/Praktikum/Praktikum_02 ; USER=root ; COMMAND=/usr/bin/chgrp jupyter 01_Quicksort.ipynb 01_solution.ipynb
+Oct  6 17:02:57 jupiter sudo: pam_unix(sudo:session): session opened for user root by cgawron(uid=0)
+Oct  6 17:02:57 jupiter sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 17:03:05 jupiter sudo:  cgawron : TTY=pts/2 ; PWD=/home/jupyter/notebooks/Praktikum/Praktikum_02 ; USER=root ; COMMAND=/usr/bin/mv 01_Quicksort.ipynb 00_Quicksort.ipynb
+Oct  6 17:03:05 jupiter sudo: pam_unix(sudo:session): session opened for user root by cgawron(uid=0)
+Oct  6 17:03:05 jupiter sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 17:03:22 jupiter sudo:  cgawron : TTY=pts/2 ; PWD=/home/jupyter/notebooks/Praktikum/Praktikum_02 ; USER=root ; COMMAND=/usr/bin/chmod g+w .
+Oct  6 17:03:22 jupiter sudo: pam_unix(sudo:session): session opened for user root by cgawron(uid=0)
+Oct  6 17:03:22 jupiter sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 17:03:45 jupiter sudo:  cgawron : TTY=pts/2 ; PWD=/home/jupyter/notebooks/Praktikum/Praktikum_02 ; USER=root ; COMMAND=/usr/bin/mv 01_solution.ipynb 01_quicksort.ipynb
+Oct  6 17:03:45 jupiter sudo: pam_unix(sudo:session): session opened for user root by cgawron(uid=0)
+Oct  6 17:03:45 jupiter sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 17:17:01 jupiter CRON[1316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 17:17:01 jupiter CRON[1316]: pam_unix(cron:session): session closed for user root
+Oct  6 17:21:35 jupiter sshd[1327]: Received disconnect from 35.241.103.186 port 46272:11: Bye Bye [preauth]
+Oct  6 17:21:35 jupiter sshd[1327]: Disconnected from authenticating user root 35.241.103.186 port 46272 [preauth]
+Oct  6 17:31:12 jupiter sudo:  cgawron : TTY=pts/2 ; PWD=/home/jupyter/notebooks/Praktikum ; USER=root ; COMMAND=/usr/bin/mv mueller_recurrence.ipynb Praktikum_01/01_solution_muller_recurrence.ipynb
+Oct  6 17:31:12 jupiter sudo: pam_unix(sudo:session): session opened for user root by cgawron(uid=0)
+Oct  6 17:31:12 jupiter sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 18:05:50 jupiter sshd[1969]: Invalid user user from 128.199.242.84 port 34949
+Oct  6 18:05:51 jupiter sshd[1969]: Received disconnect from 128.199.242.84 port 34949:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 18:05:51 jupiter sshd[1969]: Disconnected from invalid user user 128.199.242.84 port 34949 [preauth]
+Oct  6 18:17:01 jupiter CRON[1986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 18:17:01 jupiter CRON[1986]: pam_unix(cron:session): session closed for user root
+Oct  6 18:22:51 jupiter sshd[1997]: Received disconnect from 60.250.164.169 port 41416:11: Bye Bye [preauth]
+Oct  6 18:22:51 jupiter sshd[1997]: Disconnected from authenticating user root 60.250.164.169 port 41416 [preauth]
+Oct  6 18:28:37 jupiter sshd[2007]: Received disconnect from 119.29.53.107 port 54255:11: Bye Bye [preauth]
+Oct  6 18:28:37 jupiter sshd[2007]: Disconnected from authenticating user root 119.29.53.107 port 54255 [preauth]
+Oct  6 18:29:19 jupiter sshd[2009]: Received disconnect from 203.171.227.205 port 45855:11: Bye Bye [preauth]
+Oct  6 18:29:19 jupiter sshd[2009]: Disconnected from authenticating user root 203.171.227.205 port 45855 [preauth]
+Oct  6 18:34:25 jupiter sshd[2017]: Did not receive identification string from 116.52.9.220 port 59639
+Oct  6 18:39:14 jupiter sshd[2026]: Did not receive identification string from 203.148.85.146 port 42559
+Oct  6 18:42:35 jupiter sshd[2031]: Received disconnect from 152.32.130.99 port 55272:11: Bye Bye [preauth]
+Oct  6 18:42:35 jupiter sshd[2031]: Disconnected from authenticating user root 152.32.130.99 port 55272 [preauth]
+Oct  6 18:54:10 jupiter sshd[2048]: Received disconnect from 203.148.85.146 port 34944:11: Bye Bye [preauth]
+Oct  6 18:54:10 jupiter sshd[2048]: Disconnected from 203.148.85.146 port 34944 [preauth]
+Oct  6 19:17:01 jupiter CRON[2083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 19:17:01 jupiter CRON[2083]: pam_unix(cron:session): session closed for user root
+Oct  6 19:31:19 jupiter sshd[2104]: Invalid user admin from 103.118.157.30 port 44991
+Oct  6 19:31:19 jupiter sshd[2104]: Received disconnect from 103.118.157.30 port 44991:11: Bye Bye [preauth]
+Oct  6 19:31:19 jupiter sshd[2104]: Disconnected from invalid user admin 103.118.157.30 port 44991 [preauth]
+Oct  6 19:34:13 jupiter sshd[81166]: pam_unix(sshd:session): session closed for user cgawron
+Oct  6 19:34:13 jupiter systemd-logind[30659]: Session 1062 logged out. Waiting for processes to exit.
+Oct  6 19:34:13 jupiter systemd-logind[30659]: Removed session 1062.
+Oct  6 20:02:21 jupiter sshd[2152]: Accepted publickey for cgawron from 88.152.158.216 port 44562 ssh2: ECDSA SHA256:Nki6X8fLSASAJYarBJHWoW4QicRKWxH0Usn51sIBr1E
+Oct  6 20:02:21 jupiter sshd[2152]: pam_unix(sshd:session): session opened for user cgawron by (uid=0)
+Oct  6 20:02:21 jupiter systemd-logind[30659]: New session 1066 of user cgawron.
+Oct  6 20:14:42 jupiter sshd[2225]: Did not receive identification string from 185.100.87.247 port 49018
+Oct  6 20:14:45 jupiter sshd[2226]: Connection closed by 185.100.87.247 port 49286 [preauth]
+Oct  6 20:17:01 jupiter CRON[2232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 20:17:01 jupiter CRON[2232]: pam_unix(cron:session): session closed for user root
+Oct  6 20:41:55 jupiter sshd[2271]: Received disconnect from 222.186.173.238 port 26680:11:  [preauth]
+Oct  6 20:41:55 jupiter sshd[2271]: Disconnected from authenticating user root 222.186.173.238 port 26680 [preauth]
+Oct  6 21:09:05 jupiter sshd[2326]: Connection closed by 31.149.33.86 port 55760 [preauth]
+Oct  6 21:14:55 jupiter sshd[53843]: pam_unix(sshd:session): session closed for user cgawron
+Oct  6 21:14:55 jupiter systemd-logind[30659]: Session 847 logged out. Waiting for processes to exit.
+Oct  6 21:14:56 jupiter sshd[53762]: pam_unix(sshd:session): session closed for user cgawron
+Oct  6 21:14:56 jupiter systemd-logind[30659]: Session 845 logged out. Waiting for processes to exit.
+Oct  6 21:15:13 jupiter systemd-logind[30659]: Removed session 847.
+Oct  6 21:16:11 jupiter sshd[2342]: Accepted publickey for cgawron from 88.152.158.216 port 52750 ssh2: ECDSA SHA256:Nki6X8fLSASAJYarBJHWoW4QicRKWxH0Usn51sIBr1E
+Oct  6 21:16:11 jupiter sshd[2342]: pam_unix(sshd:session): session opened for user cgawron by (uid=0)
+Oct  6 21:16:11 jupiter systemd-logind[30659]: New session 1068 of user cgawron.
+Oct  6 21:16:11 jupiter sshd[2344]: Accepted publickey for cgawron from 88.152.158.216 port 52804 ssh2: ECDSA SHA256:Nki6X8fLSASAJYarBJHWoW4QicRKWxH0Usn51sIBr1E
+Oct  6 21:16:11 jupiter sshd[2344]: pam_unix(sshd:session): session opened for user cgawron by (uid=0)
+Oct  6 21:16:11 jupiter systemd-logind[30659]: New session 1069 of user cgawron.
+Oct  6 21:16:12 jupiter sshd[2352]: Received disconnect from 88.152.158.216 port 52750:11: disconnected by user
+Oct  6 21:16:12 jupiter sshd[2352]: Disconnected from user cgawron 88.152.158.216 port 52750
+Oct  6 21:16:12 jupiter sshd[2342]: pam_unix(sshd:session): session closed for user cgawron
+Oct  6 21:16:12 jupiter systemd-logind[30659]: Session 1068 logged out. Waiting for processes to exit.
+Oct  6 21:16:12 jupiter systemd-logind[30659]: Removed session 1068.
+Oct  6 21:16:12 jupiter sshd[2357]: Received disconnect from 88.152.158.216 port 52804:11: disconnected by user
+Oct  6 21:16:12 jupiter sshd[2357]: Disconnected from user cgawron 88.152.158.216 port 52804
+Oct  6 21:16:12 jupiter sshd[2344]: pam_unix(sshd:session): session closed for user cgawron
+Oct  6 21:16:12 jupiter systemd-logind[30659]: Session 1069 logged out. Waiting for processes to exit.
+Oct  6 21:16:12 jupiter systemd-logind[30659]: Removed session 1069.
+Oct  6 21:16:12 jupiter sshd[2440]: Accepted publickey for cgawron from 88.152.158.216 port 52866 ssh2: ECDSA SHA256:Nki6X8fLSASAJYarBJHWoW4QicRKWxH0Usn51sIBr1E
+Oct  6 21:16:12 jupiter sshd[2440]: pam_unix(sshd:session): session opened for user cgawron by (uid=0)
+Oct  6 21:16:12 jupiter systemd-logind[30659]: New session 1070 of user cgawron.
+Oct  6 21:16:13 jupiter sshd[2443]: Accepted publickey for cgawron from 88.152.158.216 port 52868 ssh2: ECDSA SHA256:Nki6X8fLSASAJYarBJHWoW4QicRKWxH0Usn51sIBr1E
+Oct  6 21:16:13 jupiter sshd[2443]: pam_unix(sshd:session): session opened for user cgawron by (uid=0)
+Oct  6 21:16:13 jupiter systemd-logind[30659]: New session 1071 of user cgawron.
+Oct  6 21:17:01 jupiter CRON[2472]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 21:17:01 jupiter CRON[2472]: pam_unix(cron:session): session closed for user root
+Oct  6 21:17:49 jupiter systemd-logind[30659]: Removed session 845.
+Oct  6 21:23:37 jupiter sshd[2486]: Accepted publickey for cgawron from 88.152.158.216 port 65296 ssh2: ED25519 SHA256:ShpJsBpoUlGlGFoq1GLydx/1235dH4Aenbdf3oK4fI8
+Oct  6 21:23:37 jupiter sshd[2486]: pam_unix(sshd:session): session opened for user cgawron by (uid=0)
+Oct  6 21:23:37 jupiter systemd-logind[30659]: New session 1073 of user cgawron.
+Oct  6 21:39:25 jupiter sshd[2522]: Invalid user zabbix from 117.81.171.174 port 53849
+Oct  6 21:39:26 jupiter sshd[2522]: Received disconnect from 117.81.171.174 port 53849:11: Normal Shutdown, Thank you for playing [preauth]
+Oct  6 21:39:26 jupiter sshd[2522]: Disconnected from invalid user zabbix 117.81.171.174 port 53849 [preauth]
+Oct  6 21:47:54 jupiter sudo:  cgawron : TTY=pts/3 ; PWD=/home/cgawron ; USER=root ; COMMAND=/usr/bin/cp test.json /home/jupyter/
+Oct  6 21:47:54 jupiter sudo: pam_unix(sudo:session): session opened for user root by cgawron(uid=0)
+Oct  6 21:47:54 jupiter sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 21:48:10 jupiter sudo:  cgawron : TTY=pts/3 ; PWD=/home/cgawron ; USER=root ; COMMAND=/usr/bin/chown jupyter /home/jupyter/test.json
+Oct  6 21:48:10 jupiter sudo: pam_unix(sudo:session): session opened for user root by cgawron(uid=0)
+Oct  6 21:48:10 jupiter sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 21:51:53 jupiter sshd[2577]: Received disconnect from 61.163.78.132 port 38932:11: Bye Bye [preauth]
+Oct  6 21:51:53 jupiter sshd[2577]: Disconnected from authenticating user root 61.163.78.132 port 38932 [preauth]
