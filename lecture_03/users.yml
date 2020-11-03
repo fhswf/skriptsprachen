@@ -1,0 +1,9 @@
+users:
+  cgawron:
+    name: Christian Gawron
+    groups:
+      - www-data
+      - jupyter
+    ssh-key:
+      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMfSE4bBZ5FrPRTA3UJ7ieevEmNVllDoyZM69GCWYqM 
+      gawron.christian@fh-swf.de
