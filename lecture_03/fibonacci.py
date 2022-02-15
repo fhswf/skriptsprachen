@@ -9,4 +9,4 @@ def fib(n: int) -> int:
 
 if __name__ == "__main__":
     import sys
-    fib(int(sys.argv[1]))
+    print(fib(int(sys.argv[1])))
